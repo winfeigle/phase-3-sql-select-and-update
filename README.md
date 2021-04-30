@@ -1,19 +1,19 @@
-# Inserting, Selecting, Updating, and Deleting Database Rows
+# SQL Insert, Select, Update and Delete
 
-## Overview
+## Learning Goals
+
+- Use the `INSERT INTO` command to insert data (i.e. rows) into a database
+   table
+- Use `SELECT` statements to select data from a database table
+- Use the `WHERE` clause to select data from specific table rows
+- Use comparison operators, like `<` or `>`, to select specific data
+- Use `UPDATE` statements to update data within a database table
+- Use `DELETE` statements to delete data from a database table
+
+## Introduction
 
 In this lesson, we'll cover different ways to manipulate and select data from
 SQL database tables.
-
-## Objectives
-
-1. Use the `INSERT INTO` command to insert data (i.e. rows) into a database
-   table
-2. Use `SELECT` statements to select data from a database table
-3. Use the `WHERE` clause to select data from specific table rows
-4. Use comparison operators, like `<` or `>`, to select specific data
-5. Use `UPDATE` statements to update data within a database table
-6. Use `DELETE` statements to delete data from a database table
 
 ## Setting Up Our Database
 
