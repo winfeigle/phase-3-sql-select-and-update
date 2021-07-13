@@ -267,3 +267,10 @@ DELETE FROM cats WHERE id = 3;
 Notice that this time we selected the row to delete using the Primary Key
 column. Remember that every table row has a Primary Key column that is unique.
 Hana was the third row in the database and thus had an id of `3`.
+
+## Conclusion
+
+You've now successfully performed all four CRUD actions — Create, Read, Update,
+and Delete — using SQL with the `INSERT`, `SELECT`, `UPDATE` and `DESTROY`
+commands. These four actions are among the most important when it comes to
+working with SQL databases.
