@@ -66,23 +66,10 @@ Let's add a few more cats to our table. This time we'll do this via our text
 editor. Create a file, `01_insert_cats_into_cats_table.sql`. Use two `INSERT
 INTO` statements to insert the following cats into the table:
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>name</th>
-    <th>age</th>
-    <th>breed</th>
-  </tr>
-  <tr>
-    <td>"Lil' Bub"</td>
-    <td>5</td>
-    <td>"American Shorthair"</td>
-  </tr>  
-  <tr>
-    <td>"Hannah"</td>
-    <td>1</td>
-    <td>"Tabby"</td>
-  </tr>
-</table>
+| name | age | breed |
+| --- | --- | --- |
+| "Lil' Bub" | 5 | "American Shorthair" |
+| "Hannah" | 1 | "Tabby" |
 
 Each `INSERT INTO` statement gets its own line in the `.sql` file in your text
 editor. Each line needs to end with a `;`. Run the file with the following code
