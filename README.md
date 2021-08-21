@@ -60,10 +60,10 @@ Let's add a few more cats to our table. This time we'll do this via our text
 editor. Create a file, `01_insert_cats_into_cats_table.sql`. Use two
 `INSERT INTO` statements to insert the following cats into the table:
 
-| name | age | breed |
-| --- | --- | --- |
-| "Lil' Bub" | 5 | "American Shorthair" |
-| "Hannah" | 1 | "Tabby" |
+| name       | age | breed                |
+| ---------- | --- | -------------------- |
+| "Lil' Bub" | 5   | "American Shorthair" |
+| "Hannah"   | 1   | "Tabby"              |
 
 Each `INSERT INTO` statement gets its own line in the `.sql` file in your text
 editor. Each line needs to end with a `;`. Run the file with the following code
@@ -73,8 +73,8 @@ in your terminal:
 sqlite3 pets_database.db < 01_insert_cats_into_cats_table.sql
 ```
 
-**NOTE:** This command should be run from your terminal prompt, not in the
-`sqlite` console.
+> **NOTE:** This command should be run from your terminal prompt, not in the
+> `sqlite` console.
 
 Now, we'll learn how to `SELECT` data from a table, which will help us to
 confirm that we inserted the above data correctly.
@@ -161,9 +161,9 @@ You can even select more than one column name at a time. For example, try out:
 SELECT name, age FROM cats;
 ```
 
-**Top-Tip:** If you have duplicate data (for example, two cats with the same
-name) and you only want to select unique values, you can use the `DISTINCT`
-keyword. For example:
+> **Top-Tip:** If you have duplicate data (for example, two cats with the same
+> name) and you only want to select unique values, you can use the `DISTINCT`
+> keyword. For example:
 
 ```sql
 SELECT DISTINCT name FROM cats;
