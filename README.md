@@ -15,6 +15,9 @@ In this lesson, we'll cover different ways to manipulate and select data from
 SQL database tables. We'll see how to perform different Create, Read, Update,
 and Delete (or CRUD) actions in a database table.
 
+[Fork and clone this lesson](https://github.com/learn-co-curriculum/phase-3-sql-select-and-update/fork)
+to follow along.
+
 ## Setting Up Our Database
 
 In this code along, we'll be working with a `cats` table in the provided
