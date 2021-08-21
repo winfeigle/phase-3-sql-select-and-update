@@ -1,4 +1,4 @@
-# SQL CRUD: Insert, Select, Update and Delete
+# SQL Insert, Select, Update and Delete
 
 ## Learning Goals
 
