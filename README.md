@@ -24,8 +24,8 @@ In this code along, we'll be working with a `cats` table in the provided
 `pets_database.db` file. Explore the `cats` table structure using the SQLite
 VSCode extension, or with DB Browser, or by running the `sqlite3` prompt:
 
-```sh
-sqlite3 pets_database.db
+```console
+$ sqlite3 pets_database.db
 sqlite> .schema
 CREATE TABLE cats (
   id INTEGER PRIMARY KEY,
@@ -72,8 +72,8 @@ Each `INSERT INTO` statement gets its own line in the `.sql` file in your text
 editor. Each line needs to end with a `;`. Run the file with the following code
 in your terminal:
 
-```bash
-sqlite3 pets_database.db < 01_insert_cats_into_cats_table.sql
+```console
+$ sqlite3 pets_database.db < 01_insert_cats_into_cats_table.sql
 ```
 
 > **NOTE:** This command should be run from your terminal prompt, not in the
@@ -109,8 +109,8 @@ depending on your preference.
 You can either open the database using the `sqlite3` CLI, and run the SQL
 commands from the terminal:
 
-```sh
-sqlite3 pets_database.db
+```console
+$ sqlite3 pets_database.db
 ```
 
 Or you can open the `pets_database.db` file in DB Browser for SQLite, and run
