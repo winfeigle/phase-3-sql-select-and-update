@@ -261,6 +261,6 @@ Hana was the third row in the database and thus had an id of `3`.
 ## Conclusion
 
 You've now successfully performed all four CRUD actions — Create, Read, Update,
-and Delete — using SQL with the `INSERT`, `SELECT`, `UPDATE` and `DESTROY`
+and Delete — using SQL with the `INSERT`, `SELECT`, `UPDATE` and `DELETE`
 commands. These four actions are among the most important when it comes to
 working with SQL databases.
